@@ -1,0 +1,53 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+.mvn/
+mvnw
+mvnw.cmd
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.pkl
+prediction-service/models/
+
+# Node / Frontend
+node_modules/
+dist/
+frontend/dist/
+*.local
+
+# Env
+.env
+.env.local
+*.env
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+.jacoco/
+
+# Build artifacts
+build/
+out/
